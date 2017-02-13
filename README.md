@@ -1,4 +1,4 @@
-# Hello - An Application to Test Build Pipelines and CI Tools
+# Hello - An Application to Test Build Pipelines and CI Tools [![build status](https://travis-ci.org/slave13043712/hello.svg?branch=master)](https://travis-ci.org/slave13043712/hello)
 
 ## Overview
 First of all, why are you here? No, seriously this is just a sample project to test the tools.
