@@ -22,7 +22,7 @@ public class HelloServletIT {
     private String serverUri;
 
     @Before
-    public void setUp() throws Exception {
+    public void setUp() throws Exception { //NOSONAR
         this.webDriver = new ChromeDriver();
         this.server = new Server();
         ServerConnector connector = new ServerConnector(server);
@@ -49,7 +49,7 @@ public class HelloServletIT {
     }
 
     @After
-    public void tearDown() throws Exception {
+    public void tearDown() throws Exception { //NOSONAR
         this.webDriver.quit();
         this.server.stop();
     }

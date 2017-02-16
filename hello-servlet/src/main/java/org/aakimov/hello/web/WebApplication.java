@@ -11,6 +11,13 @@ import org.eclipse.jetty.servlet.ServletHolder;
 public class WebApplication {
 
     /**
+     * Private constructor to hide the default one.
+     */
+    private WebApplication() {
+        throw new UnsupportedOperationException("Instance of this class can not be created.");
+    }
+
+    /**
      * Main entry point of the application.
      *
      * @param args command line arguments.
